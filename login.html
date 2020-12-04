@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Login</title>
+        <link rel="stylesheet" href="css/login.css" />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    </head>
+    <body>
+      <header class="header">
+        <h1 class="header_logo"><i class="fab fa-pagelines fa-fw"></i>LivLabo.</h1>
+        
+      
+        <!-- ハンバーガーメニュー部分 -->
+        <div class="drawer">
+      
+          <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+          <input type="checkbox" id="drawer-check" class="drawer-hidden" >
+      
+          <!-- ハンバーガーアイコン -->
+          <label for="drawer-check" class="drawer-open"><span></span></label>
+      
+          <!-- メニュー -->
+          <nav class="drawer-content">
+            <ul class="drawer-list">
+              <li class="drawer-item"><a href="#"><i class="fas fa-home fa-fw"></i>Home</a></li>
+              <li class="drawer-item"><a href="#"><i class="fas fa-portrait fa-fw"></i>Sign up</a></li>
+              <li class="drawer-item"><a href="#"><i class="fas fa-sign-in-alt fa-fw"></i>Login</a></li>
+
+            </ul><!-- /.drawer-list -->
+          </nav>
+      
+        </div>
+      </header>
+      <aside>
+          
+        <div class="logo_image">
+            <h1><i class="fab fa-pagelines fa-fw"></i>LivLabo.</h1>
+        </div>
+        <nav class="sidebar">
+            <ul>
+                
+                <li><a href="#"><i class="fas fa-home fa-fw"></i>Home</a></li>
+                <li><a href="#"><i class="fas fa-portrait fa-fw"></i>Sign up</a></li>
+                <li><a href="#"><i class="fas fa-sign-in-alt fa-fw"></i>Login</a></li>
+                
+            </ul>
+        </nav>
+        
+            <!-- <div class="side_footer">
+                side footer候補
+                
+            </div>
+            -->
+
+    </aside>
+
+        <main>
+            <div class="pagetitle">
+              <h1 class="heading__en">Login</h1>
+              <h3 class="heading__ja"> ログイン</h3>
+            </div>
+            
+                <div class="cp_iptxt">
+                  <div class="formbox">
+                <div class="formbox">
+                  <div class="form_title">メールアドレス</div>
+                  <input class="sign_up" type="email">
+                  <i class="fas fa-envelope fa-3x fa-fw" aria-hidden="true"></i>
+                  <p class="signup_example">例) info@example.com</p>
+                </div>
+                <div class="formbox">
+                  <div class="form_title">ユーザーID(6文字以上 半角英数字)</div>
+                  <input class="sign_up" type="text">
+                  <i class="fas fa-id-card fa-3x fa-fw" aria-hidden="true"></i>
+                  <p class="signup_example">例) abc123</p>
+                </div>
+                <div class="formbox">
+                  <div class="form_title">パスワード(6文字以上 半角英数字)</div>
+                  <input class="sign_up" type="text">
+                  <i class="fas fa-lock fa-3x fa-fw" aria-hidden="true"></i>
+                  <p class="signup_example">例) 123abc</p>
+                </div>
+ 
+
+                <div class="submit">
+                  <input class="btn submit-btn btn--cubic btn--shadow mr-2" type="submit" value="Login">
+                  <br>
+                  <input class="btn submit-btn btn--cubic btn--shadow mr-2" type="submit" value="かんたんLogin">
+                 </div>
+                </div>
+                </div> 
+
+
+                
+              
+            <footer class="footer">
+
+                <small>&copy;2020 LivLabo.</small>
+              </footer>
+
+        </main>
+</body>
+</html>
